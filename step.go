@@ -26,8 +26,7 @@ func (s *Step) PostExec(f func() error) *Step {
 	return s
 }
 
-// Exec executes the step function, and its pre/post functions if any.
-func (s *Step) Exec() error {
+func (s *Step) exec() error {
 	var err error
 
 	if s.preExecFunc != nil {

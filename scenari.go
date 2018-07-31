@@ -64,7 +64,7 @@ func (s *Scenario) Rollout() error {
 		}
 
 		for step := s.steps.Front(); step != nil; step = step.Next() {
-			if err = step.Value.(*Step).Exec(); err != nil && !s.carryOn {
+			if err = step.Value.(*Step).exec(); err != nil && !s.carryOn {
 				return err
 			}
 		}
