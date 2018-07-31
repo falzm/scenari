@@ -1,6 +1,8 @@
 # scenari: Simple scenario execution
 
-This package provides a simple library for writing arbitrary *scenarios*, which consist of steps executed sequentially. It can be useful for performing unit/functionnal testing.
+[![GoDoc](https://godoc.org/github.com/falzm/scenari?status.svg)](https://godoc.org/github.com/falzm/scenari)
+
+This package provides a simple library for writing arbitrary *scenarios*, which consist of steps executed sequentially. It can be useful for performing unit/functional testing.
 
 ## Example usage
 
